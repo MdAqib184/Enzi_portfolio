@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="Script" href="script.js">
+    <script src="https://kit.fontawesome.com/c1da2149fa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Luxurious+Script&family=Poppins:wght@400;700&family=Rouge+Script&display=swap"
+        rel="stylesheet">
+    <title>Enzamam's portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="left">
+                    <div class="large"><span class="logo">M</span>d Enzamam</div>
+
+                </div>
+                <div class="right">
+                    <ul id="sidemenue">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenue()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenue()"></i>
+                </div>
+            </nav>
+            <div class="top">
+                <div class="header_text">
+                    <p><span class="my-name">CA</span> Enthusiast</p>
+                    <h1>Hi, I'm <span class="my-name">Md</span> <br>Enzamam from India</h1>
+                    <div>I am a Wholehearted</div>
+                    <span id="element"></span>
+                </div>
+                <div class="top-img">
+                    <img src="image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- |-------------about-----------------| -->
+    <div id="about"><br><br>
+        <div class="container">
+            <div class="row row1">
+                <div class="col1">
+                    <h1 class="sub-title">About <span class="my-name">Me</span></h1>
+                    <p>Hello! I'm <span class="my-name">Md Enzamam</span>, an analytical and academically-driven graduate 
+                        student who studied accounting and finance at the B.Com. (Honours) programme of Umeschandra College College 
+                        of Commerce .Besides that, I'm pursuing the chartered accountancy course of the ICAI. My core interests lie 
+                        in the field of corporate finance - mainly in Taxation policies. 
+                        <br>
+                        Firmly rooted in the belief that actions speak louder than words, I advocate for a 'show, don't tell' 
+                         <br>
+                        I'm constantly seeking opportunities to learn, grow, and collaborate with talented
+                        individuals and teams. I'm excited to take on new challenges.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <!-- <p class="tab-links"onclick="opentab('Experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>MS Office</span><br>Microsoft Word is a word processing program for document creation</li>
+                            <li><span>MS Excel </span><br>Microsoft Excel is a spreadsheet program for data analysis</li>
+                            <li><span>MS PowerPoint</span><br>Microsoft PowerPoint is a presentation software for creating slideshows.</li>
+                            <li><span>Tally ERP 9</span><br>Tally ERP 9 is an accounting software widely used for financial accounting and business management.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>Bachelor of Commerce (B.Com)(Hons) - 7.9 CGPA
+                                From Umeschandra College</li>
+                            <li><span>2020</span><br>Completed My Higher Secondry From WBHSE Board With A score of 82%
+                            </li>
+                            <li><span>2018</span><br>Completed My Secondry From WBBSE Board with A SCore of 86%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col2"><img src="Enzamam.jpeg" alt="my-image"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------services---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span class="my-name">My</span> Services</h1>
+            <div class="service-list">
+                <div class="service">
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Accounting</h2>
+                    <p>Offering comprehensive accounting services to businesses, encompassing bookkeeping, 
+                        financial analysis, tax compliance, and strategic financial guidance</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-money-bill-transfer"></i>
+                    <h2>E-way Bill</h2>
+                    <p>Facilitating seamless and compliant transportation of goods through the provision 
+                        of E-way bill services, ensuring efficient tracking and documentation in the 
+                        logistics chain.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Tax Advisory</h2>
+                    <p>Providing strategic tax advisory services to optimize financial planning, ensure 
+                        compliance, and maximize savings for individuals and businesses.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------contact------------>
+    <div id="contact"><br>
+        <br><br><div class="container">
+            <div class="row">
+                <div class="con-left">
+                    <h1 class="sub-title">Contact <span class="my-name">Me</span></h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>enzamammd101@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i>+91 8420937836</p>
+                    <div class="social">
+                        <a href=" https://www.linkedin.com/in/md-enzamam-422030247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/mohammad.enzamam.5 "><i class="fa-brands fa-facebook"></i></a>
+                        <a href=" https://www.instagram.com/enzamam_1/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./resources/Md Enzamam-Resume.docx" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="con-right">
+                    <form action="mailto:noorkaif084@gmail.com" method="post" enctype="text/plain">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <span>©Md Enzamam</span>. All Rights Are Resserved</p>
+        </div>
+    </div>
+    <!-- ----------script for delay printing effect------------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Fast Learner', 'Problem solver', "CA Aspirant"],
+            typeSpeed: 70,
+        });
+    </script>
+    <!-- -----------scrtipt for hower line effect-------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <!-- --------------------script for menu------------ -->
+    <script>
+        var sidemenue = document.getElementById("sidemenue");
+        function openmenue() {
+            sidemenue.style.right = "0";
+        }
+        function closemenue() {
+            sidemenue.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
